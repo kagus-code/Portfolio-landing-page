@@ -43,4 +43,6 @@ h2 {
   width: 220px;
   float: left;
   padding: 15px;
+  background-color: rgb(80, 153, 77);
+  color: aliceblue;
 }
