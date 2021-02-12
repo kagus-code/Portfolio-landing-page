@@ -17,6 +17,10 @@ This is a simple implementation of a portfolio website
 - HTML
 - CSS
 
+## link to live site on GitHub Pages
+
+https://kagus-code.github.io/Portfolio-landing-page/
+
 ## Support and contact details
 
 | Eston | ekagwima745@gmail.com |
