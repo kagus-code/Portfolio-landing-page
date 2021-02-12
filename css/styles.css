@@ -12,6 +12,9 @@ header {
 }
 .text-center {
   text-align: center;
+  color: #4a4e69;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 .text-center img {
   width: 200px;
