@@ -7,6 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: azure;
+  border-radius: 50px;
 }
 .text-center {
   text-align: center;
