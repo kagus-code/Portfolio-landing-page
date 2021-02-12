@@ -10,6 +10,7 @@ header {
   border-radius: 50px;
 }
 .text-center {
+  float: left;
   text-align: center;
   color: #4a4e69;
   font-weight: 300;
@@ -31,7 +32,7 @@ header {
   color: black;
 }
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   text-align: center;
 }
 .nav_links li {
