@@ -34,3 +34,10 @@ h2 {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
