@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 body {
   background-color: aqua;
 }
@@ -39,4 +38,9 @@ h2 {
 }
 .nav_links li a {
   transition: all 0.3s ease 0s;
+}
+.column {
+  width: 220px;
+  float: left;
+  padding: 15px;
 }
