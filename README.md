@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a simple implementation of a website portfolio
+This is a simple implementation of a portfolio website
 
 ## Setup/Installation Requirements
 
@@ -14,8 +14,8 @@ This is a simple implementation of a website portfolio
 
 ## Technologies Used
 
-HTML.
-CSS
+- HTML
+- CSS
 
 ## Support and contact details
 
