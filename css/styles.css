@@ -23,3 +23,7 @@ header {
   margin: 20px;
   background-color: aqua;
 }
+h2 {
+  font-style: italic;
+  text-align: center;
+}
