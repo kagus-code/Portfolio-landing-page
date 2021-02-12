@@ -6,6 +6,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: azure;
 }
 .text-center {
   text-align: center;
@@ -45,4 +46,11 @@ h2 {
   padding: 15px;
   background-color: rgb(80, 153, 77);
   color: aliceblue;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgb(113, 113, 145);
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s ease 0s;
 }
