@@ -10,3 +10,12 @@ header {
   align-items: center;
   padding: 30px 10%;
 }
+.text-center {
+  text-align: center;
+}
+.text-center img {
+  width: 200px;
+  border-radius: 50px;
+  align-items: center;
+  margin-right: 10px;
+}
