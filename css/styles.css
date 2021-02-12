@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   background-color: aqua;
 }
@@ -21,6 +22,7 @@ header {
   margin-right: 10px;
 }
 .row-1 {
+  border-radius: 50px;
   margin-bottom: green;
   border: 30px white;
   padding: 6px;
@@ -29,6 +31,6 @@ header {
   color: black;
 }
 h2 {
-  font-style: italic;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
