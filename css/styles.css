@@ -12,7 +12,7 @@ header {
 .text-center {
   float: left;
   text-align: center;
-  color: #eeeff7;
+  color: azure;
   font-weight: 300;
   font-family: sans-serif;
 }
@@ -32,7 +32,7 @@ header {
   color: black;
 }
 h2 {
-  font-family: sans-serif;
+  font-family: sans-serify;
   text-align: center;
 }
 .nav_links li {
@@ -55,4 +55,12 @@ button {
   border-radius: 50px;
   border: none;
   transition: all 0.3s ease 0s;
+}
+@media screen and (max-width: 388px) {
+  body {
+    background-color: black;
+  }
+  .text-center {
+    float: none;
+  }
 }
