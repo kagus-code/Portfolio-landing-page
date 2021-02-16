@@ -9,8 +9,10 @@
 This is a simple implementation of a portfolio website
 
 ## Setup/Installation Requirements
-
-- A web browser that supports HTML5
+* Clone the repository
+* Change directory to the project directory
+* Open project on VSCode
+* Start the project on live server
 
 ## Technologies Used
 
