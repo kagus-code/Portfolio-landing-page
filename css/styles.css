@@ -1,72 +1,239 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-body {
-  background-color: rgb(89, 134, 134);
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-header {
+
+/* navbar styles */
+.navbar{
+  position: fixed;
+  width: 100%;
+  background:  linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-family: 'ubuntu', sans-serif;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .menu li a {
+  color: #fff;
+}
+.distortion{
+  width: 700px;
+  height: 700px;
+ align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+} */
+
+/* .landing{
   display: flex;
+  justify-content: space-around;
+  height: 100vh;
+} */
+/* .intro{
+  align-self: center;
+}
+
+.intro h2{
+  font-size: 60px;
+}
+
+.intro p {
+  font-size: 25px;
+} */
+
+/* 
+h1{
+  color: 426696;
+  font-weight: 600 ;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+h2,p{
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3{
+ 
+  color: 426696;
+  font-weight: 600;
+  opacity: 0.8;
+
+}
+
+main{
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top,#dee9e7,#202020);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.glass{
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(to right bottom,
+  rgba(255,255,255,0.7),
+  rgba(255,255,255,0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+
+.circle1,
+.circle2{
+background: white;
+background: linear-gradient(to right bottom,
+rgba(255,255,255,0.8),
+rgba(255,255,255,0.3)
+);
+height: 20rem;
+width: 20rem;
+position: absolute;
+border-radius: 50%;
+
+
+}
+
+.circle1{
+top: 5%;
+right:15%;
+
+
+}
+
+.circle2{
+  bottom: 5%;
+  left: 10%;
+}
+
+
+.dashboard{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(to right bottom,
+  rgba(255,255,255,0.7),
+  rgba(255,255,255,0.3)
+  );
+  border-radius: 2rem;
+
+}
+
+.link{
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+
+}
+
+link h2{
+
+  padding: 0rem 2rem;
+
+}
+
+
+.games{
+  flex:2;
+
+}
+
+.status{
+  margin-bottom: 3rem;
+}
+
+.status input{
+  background: linear-gradient(to right bottom,
+rgba(255,255,255,0.8),
+rgba(255,255,255,0.3)
+);
+border: none;
+width: 50%;
+padding: 0.5rem;
+border-radius: 2rem;
+
+}
+
+.games{
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.card{
+  display: flex;
+  background: linear-gradient(to left top, rgba(255,255,255,0.8),
+  rgba(255,255,255,0.5)) ;
+border-radius: 1rem;
+margin: 2rem 0rem;
+padding: 2rem;
+box-shadow: 6px 6px 20px rgba(122,122,122,0.2) ;
+
+}
+.card-info{
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  background-color: azure;
-  border-radius: 50px;
+  
 }
-.text-center {
-  float: left;
-  text-align: center;
-  color: azure;
-  font-weight: 300;
-  font-family: sans-serif;
-}
-.text-center img {
-  width: 200px;
-  border-radius: 50px;
-  align-items: center;
-  margin-right: 10px;
-}
-.row-1 {
-  border-radius: 50px;
-  margin-bottom: green;
-  border: 30px white;
-  padding: 6px;
-  margin: 20px;
-  background-color: white;
+
+.curved {
+  background: #424f53;
   color: black;
-}
-h2 {
-  font-family: sans-serify;
   text-align: center;
 }
-.nav_links li {
-  display: inline-block;
-  padding: 0px 20px;
+.curved svg {
+  display: block;
 }
-.nav_links li a {
-  transition: all 0.3s ease 0s;
-}
-.column {
-  width: 220px;
-  float: left;
-  padding: 15px;
-  background-color: rgb(80, 153, 77);
-  color: aliceblue;
-}
-button {
-  font-size: 12px;
-  padding: 9px 25px;
-  background-color: rgb(113, 113, 145);
-  border-radius: 50px;
-  border: none;
-  margin: none;
-  transition: all 0.3s ease 0s;
-}
-button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-@media screen and (max-width: 800px) {
-  body {
-    background-color: black;
-  }
-  .text-center {
-    float: none;
-  }
-}
+ */
