@@ -8,11 +8,16 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
 /* navbar styles */
 .navbar{
   position: fixed;
   width: 100%;
+  padding: 15px 0;
   background:  linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   font-family: 'ubuntu', sans-serif;
 }
@@ -22,13 +27,64 @@
   font-size: 35px;
   font-weight: 600;
 }
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
 .navbar .menu li a {
   color: #fff;
+  font-weight: 500px;
+  margin-left: 25px;
+  
+
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* home section */
+.home{
+  display: flex;
+  /* background: url("/me.png") no-repeat center ; */
+  height: 100vh;
+color: white;
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  min-height: 500px;
+  font-family: 'ubuntu', sans-serif;
+
+}
+
+.home .max-width{
+margin: auto 0 auto 40px;
+}
+
+
+
+.home .home-content .text-1{
+  font-size: 27px;
+}
+.home .home-content .text-2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
 }
 .distortion{
   width: 700px;
   height: 700px;
- align-self: flex-end;
+  align-self: flex-end;
+ 
+}
+
+.home .home-content .text-3 span{
+  color: crimson;
+  font-weight: 500;
 }
 
 
