@@ -31,6 +31,97 @@ $(document).ready(function(){
   $('#more-btn').click(function(){
     $('#readmore').toggle("show");
   });
+
+
+
+
+
+
+  $('.demo').percentcircle({
+
+    animate : true,
+    diameter : 100,
+    guage: 2,
+    coverBg: '#fff',
+    bgColor: '#efefef',
+    fillColor: '#FF2052',
+    percentSize: '15px',
+    percentWeight: 'normal'
+    
+    });
+    
+        $('.demo1').percentcircle({
+    
+    animate : true,
+    diameter : 100,
+    guage: 2,
+    coverBg: '#fff',
+    bgColor: '#efefef',
+    fillColor: '#B284BE',
+    percentSize: '15px',
+    percentWeight: 'normal'
+    
+    });
+    
+          $('.demo2').percentcircle({
+    
+    animate : true,
+    diameter : 100,
+    guage: 2,
+    coverBg: '#fff',
+    bgColor: '#efefef',
+    fillColor: '#7C0A02',
+    percentSize: '15px',
+    percentWeight: 'normal'
+    
+    });
+    
+            $('.demo3').percentcircle({
+    
+    animate : true,
+    diameter : 100,
+    guage: 2,
+    coverBg: '#fff',
+    bgColor: '#efefef',
+    fillColor: '#4AFF00',
+    percentSize: '15px',
+    percentWeight: 'normal'
+    
+    });
+    
+              $('.demo4').percentcircle({
+    
+    animate : true,
+    diameter : 100,
+    guage: 2,
+    coverBg: '#fff',
+    bgColor: '#efefef',
+    fillColor: '#1DACD6',
+    percentSize: '15px',
+    percentWeight: 'normal'
+    
+    });
+                  $('.demo5').percentcircle({
+    
+    animate : true,
+    diameter : 100,
+    guage: 2,
+    coverBg: '#fff',
+    bgColor: '#efefef',
+    fillColor: '#FFC300',
+    percentSize: '15px',
+    percentWeight: 'normal'
+    
+    });
+
+
+
+
+
+
+
+
+
 });
 
 

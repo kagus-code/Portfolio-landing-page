@@ -1,7 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-
+html{
+  scroll-behavior: smooth;
+}
 *{
   margin: 0;
   padding: 0;
@@ -70,19 +72,11 @@ menu button */
 
 
 
-
-
-
-
-
 /* home section */
 .home{
   display: flex;
-  /* background: url("/me.png") no-repeat center ; */
   height: 100vh;
 color: rgb(17, 17, 17);
-/* background-color: #000000;
-background-image: linear-gradient(147deg, #00000075 30%, #97a5b3 74%); */
   min-height: 500px;
   font-family: 'ubuntu', sans-serif;
 
@@ -91,8 +85,6 @@ background-image: linear-gradient(147deg, #00000075 30%, #97a5b3 74%); */
 .home .max-width{
 margin: auto 0 auto 40px;
 }
-
-
 
 .home .home-content .text-1{
   font-size: 27px;
@@ -117,6 +109,21 @@ margin: auto 0 auto 40px;
   color: crimson;
   font-weight: 500;
 }
+
+
+.home .card{
+  width: 35rem; 
+  height: 50rem; 
+  margin-top: 100px;
+  
+  box-shadow: 19px 8px 51px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 19px 8px 51px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 19px 8px 51px 0px rgba(0,0,0,0.75);
+
+}
+
+/* 
+end of home */
 
 .me-card {
   background-color: #ffe53b;
@@ -226,16 +233,7 @@ margin: auto 0 auto 40px;
 }
 
 
-.card{
-  width: 35rem; 
-  height: 50rem; 
-  margin-top: 100px;
-  
-  box-shadow: 19px 8px 51px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 19px 8px 51px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 19px 8px 51px 0px rgba(0,0,0,0.75);
 
-}
 
 @media(max-width: 1104px){
   .home .max-width{
@@ -340,188 +338,68 @@ margin: auto 0 auto 40px;
     font-size: 17px;
   }
   }
-
-
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-} */
-
-/* .landing{
-  display: flex;
-  justify-content: space-around;
-  height: 100vh;
-} */
-/* .intro{
-  align-self: center;
-}
-
-.intro h2{
-  font-size: 60px;
-}
-
-.intro p {
-  font-size: 25px;
-} */
+    
 
 /* 
-h1{
-  color: 426696;
-  font-weight: 600 ;
-  font-size: 3rem;
-  opacity: 0.8;
-}
+  skills styles */
 
-h2,p{
-  color: #658ec6;
-  font-weight: 500;
-  opacity: 0.8;
-}
-
-h3{
- 
-  color: 426696;
-  font-weight: 600;
-  opacity: 0.8;
+#skills{
+background: linear-gradient(rgba(0,0,0,0.5),rgba(248, 168, 19, 0.5)), url(/skills-b.jpg), no-repeat center;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+color: honeydew;
 
 }
-
-main{
-  font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
-  background: linear-gradient(to right top,#dee9e7,#202020);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.circle{
+	
+	margin: 60px auto;
+	display: block;
+	text-align: center;
+	width: 90%;
 
 }
 
-.glass{
-  background: white;
-  min-height: 80vh;
-  width: 60%;
-  background: linear-gradient(to right bottom,
-  rgba(255,255,255,0.7),
-  rgba(255,255,255,0.3)
-  );
-  border-radius: 2rem;
-  z-index: 2;
-  backdrop-filter: blur(2rem);
-  display: flex;
+.perc{
+	font-size: 25px !important;
 }
+#skills h1{
+	color:white;
+	font-size: 50px;
+	font-weight: bold;
+}
+#skills h3{
 
-.circle1,
-.circle2{
-background: white;
-background: linear-gradient(to right bottom,
-rgba(255,255,255,0.8),
-rgba(255,255,255,0.3)
-);
-height: 20rem;
-width: 20rem;
-position: absolute;
-border-radius: 50%;
+	font-size: 16px;
+	text-align: justify;
+	padding: 30px;
+
+}
+@media(max-width: 991px){
+	.circle{
+		margin: 90px auto;
+		display: block;
+		width: 50%;
 
 
 }
 
-.circle1{
-top: 5%;
-right:15%;
+}
+@media(max-width: 767px){
+	.circle{
+		margin: 60px auto;
+    	width: 20%;
+       
+
 
 
 }
 
-.circle2{
-  bottom: 5%;
-  left: 10%;
 }
 
 
-.dashboard{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: center;
-  background: linear-gradient(to right bottom,
-  rgba(255,255,255,0.7),
-  rgba(255,255,255,0.3)
-  );
-  border-radius: 2rem;
-
-}
-
-.link{
-  display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
-  align-items: center;
-
-}
-
-link h2{
-
-  padding: 0rem 2rem;
-
-}
 
 
-.games{
-  flex:2;
 
-}
-
-.status{
-  margin-bottom: 3rem;
-}
-
-.status input{
-  background: linear-gradient(to right bottom,
-rgba(255,255,255,0.8),
-rgba(255,255,255,0.3)
-);
-border: none;
-width: 50%;
-padding: 0.5rem;
-border-radius: 2rem;
-
-}
-
-.games{
-  margin: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-
-}
-
-.card{
-  display: flex;
-  background: linear-gradient(to left top, rgba(255,255,255,0.8),
-  rgba(255,255,255,0.5)) ;
-border-radius: 1rem;
-margin: 2rem 0rem;
-padding: 2rem;
-box-shadow: 6px 6px 20px rgba(122,122,122,0.2) ;
-
-}
-.card-info{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-}
-
-.curved {
-  background: #424f53;
-  color: black;
-  text-align: center;
-}
-.curved svg {
-  display: block;
-}
- */
+/* 
+end of skills */
