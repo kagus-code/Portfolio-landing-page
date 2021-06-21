@@ -8,6 +8,27 @@ new hoverEffect({
 
 })
 
+
+var typed = new Typed(".typing",{
+  strings: ["Full stack Software Developer", "an Economist", "a Crypto Enthusiast", " a Gamer"],
+  typeSpeed : 100,
+  backSpeed: 60,
+  loop: true
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // $(document).ready(function(){
 //   $(window).scroll(function(){
 //     if (this.scrollY > 20){
@@ -118,7 +139,7 @@ $(document).ready(function(){
 
 
 
-
+AOS.init();
 
 
 

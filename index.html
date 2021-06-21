@@ -12,6 +12,7 @@
       media="all"
     />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/aos.css" type="text/css" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -27,6 +28,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -90,12 +92,12 @@
 
    <!-- landing section -->
 
-   <section class="home" id="home">
+   <section class="home" id="home" >
      <div class="max-width">
        <div class="home-content">
          <div class="text-1"> Hello, my name is  </div>
          <div class="text-2"> Eston Kagwima </div>
-         <div class="text-3"> And I'm a  <span>Full stack Software Developer</span> 
+         <div class="text-3"> And I'm   <span class="typing" >a Full stack Software Developer</span> 
         <br>
         <a href="https://github.com/kagus-code"  rel="noopener noreferrer" target="_blank"><img src="https://img.icons8.com/fluent/50/ffffff/github.png"/></a>
         
@@ -105,7 +107,9 @@
         </div>
        </div>
      </div>
-     <div class="card cme distortion" style="-webkit-border-radius: 50px;
+     <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="card cme distortion" style="-webkit-border-radius: 50px;
      -moz-border-radius: 50px;
      border-radius: 50px; background: linear-gradient(147deg, #534b11 50%, #4b0c0c 74%);">
     </div>
@@ -117,7 +121,7 @@
 
    
    <section class="me-card"  id="about">
-   <div class="blog-slider">
+   <div class="blog-slider" data-aos="fade-right"data-aos-delay="200">
     <div class="blog-slider__wrp swiper-wrapper">
   
       <div class="blog-slider__item swiper-slide">
@@ -154,7 +158,7 @@
   <br>
   <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-md-6"  data-aos="fade-right"data-aos-delay="200">
 
 
 
@@ -190,7 +194,7 @@
 
 
 
-    <div class="col-md-5">
+    <div class="col-md-5" data-aos="fade-left"data-aos-delay="200">
 
         <div class="row">
           <div class="col-md-2">  <div class="demo" data-percent="90"></div>
@@ -218,7 +222,7 @@
 
 
 
-        <div class="col-md-1">
+        <div class="col-md-1" data-aos="fade-left"data-aos-delay="200">
 
           <div class="row">
             <div class="col-md-2">  <div class="demo" data-percent="90"></div>
@@ -270,7 +274,8 @@
 
 
     <!-- Card: Ski -->
-    <section class="card-section">
+    <section class="card-section" data-aos="fade-up"
+    data-aos-duration="3000">
         <div class="card ce">
             <div class="flip-card">
                 <div class="flip-card__container">
@@ -315,7 +320,8 @@
     <div class="vl"></div>
 
     <!-- Card: Beach -->
-    <section class="card-section">
+    <section class="card-section" data-aos="fade-up"
+    data-aos-duration="3000">
         <div class="card ce">
             <div class="flip-card">
                 <div class="flip-card__container">
@@ -378,7 +384,8 @@
     <section class="card-area">
   
       <!-- Card: City -->
-      <section class="card-section">
+      <section class="card-section" data-aos="fade-up"
+      data-aos-duration="3000">
           <div class="card ce">
               <div class="flip-card">
                   <div class="flip-card__container">
@@ -428,7 +435,8 @@
 
 
     <!-- Card: Camping -->
-    <section class="card-section">
+    <section class="card-section" data-aos="fade-up"
+    data-aos-duration="3000">
       <div class="card ce">
           <div class="flip-card">
               <div class="flip-card__container">
@@ -492,7 +500,8 @@
   <section class="card-area">
 
     <!-- Card: City -->
-    <section class="card-section">
+    <section class="card-section"data-aos="fade-up"
+    data-aos-duration="3000">
         <div class="card ce">
             <div class="flip-card">
                 <div class="flip-card__container">
@@ -598,7 +607,7 @@
     <div class="col-md-4">
 
 
-      <form>
+      <form  data-aos="zoom-in">
         <div class="form-group">
         
         <input type="text" class="form-control" placeholder="First Name" required>
@@ -660,6 +669,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js" integrity="sha512-aqhdrigR8ePLi7IhiGrZz4APv1VktO5eCavRmavrNSk1Ut/s/WVlDwH94SeCqAiM0lm/s8mjtjaDhfevv2Zauw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/hover.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/app.js"></script>
     <script src="js/jquery.circlechart.js"></script>
   </body>
