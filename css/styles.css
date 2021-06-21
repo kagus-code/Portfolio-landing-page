@@ -318,7 +318,7 @@ end of home */
   skills styles */
 
 #skills{
-background: linear-gradient(rgba(0,0,0,0.5),rgba(248, 168, 19, 0.5)), url(/skills-b.jpg), no-repeat center;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(248, 168, 19, 0.5)), url(https://res.cloudinary.com/dcllyqc40/image/upload/v1624255497/skills-b_g79jow.jpg), no-repeat center;
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
