@@ -10,8 +10,8 @@ new hoverEffect({
 
 
 var typed = new Typed(".typing",{
-  strings: ["Full stack Software Developer", "an Economist", "a Crypto Enthusiast", " a Gamer"],
-  typeSpeed : 100,
+  strings: ["Software Developer", "an Economist", "a Crypto Enthusiast", " a Gamer"],
+  typeSpeed : 150,
   backSpeed: 60,
   loop: true
 });
